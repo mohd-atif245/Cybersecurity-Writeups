@@ -47,7 +47,7 @@ Username: R1ckRul3s
 This gave up half the credentials needed for a potential login form.
 
 ### Web Enumeration
-![Enumeration](images/enumeration.png)
+![Enumeration](assets/enumeration.png)
 
 ### 2.2 robots.txt
 
@@ -131,7 +131,7 @@ ls -la "/home/rick/second ingredients"
 less "/home/rick/second ingredients"
 ```
 
-![Exploitation](images/exploitation.png)
+![Exploitation](assets/exploitation.png)
 
 ✅ **Second ingredient captured.**
 
@@ -166,7 +166,7 @@ User www-data may run the following commands on ip-10-113-156-3:
 This confirms the root cause of full compromise: the `www-data` service account was misconfigured with unrestricted, passwordless `sudo` access — turning a simple command injection vulnerability into full root-level system compromise.
 
 ### Privilege Escalation & Flags
-![Flag Retrieval](images/flag.png)
+![Flag Retrieval](assets/flag.png)
 
 ---
 
