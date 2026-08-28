@@ -1,4 +1,4 @@
-# TryHackMe: Pickle Rick — Writeup
+# TryHackMe: Pickle Rick — Writeup.
 
 **Category:** Web Exploitation / Command Injection
 **Difficulty:** Easy
